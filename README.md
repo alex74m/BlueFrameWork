@@ -5,7 +5,8 @@ BlueFrameWork is a **PHP MicroFramework** for web applications within autoloader
 Installation
 ------------
 Clone with GIT
-: git clone https://github.com/alex74m/BlueFrameWork.git
+
+    : git clone https://github.com/alex74m/BlueFrameWork.git
 
 Documentation
 -------------
