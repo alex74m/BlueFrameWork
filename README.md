@@ -2,7 +2,7 @@
 Blue FrameWork within autoloader and Twig Template
 
 
-[BlueFrameWork]is a **PHP MicrFramework** for web applications.
+<h2>BlueFrameWork</h2> is a **PHP MicrFramework** for web applications.
 
 Installation
 ------------
