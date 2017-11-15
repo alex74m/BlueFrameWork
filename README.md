@@ -2,7 +2,7 @@
 Blue FrameWork within autoloader and Twig Template
 
 
-<h2>BlueFrameWork</h2> is a **PHP MicrFramework** for web applications.
+BlueFrameWork is a **PHP MicroFramework** for web applications.
 
 Installation
 ------------
@@ -14,7 +14,6 @@ Documentation
 -------------
 
 Database = app/Controller/Database.php
-
 -> self::$db = new PDO('mysql:host=YOUR_HOST;dbname=YOUR_DB_NAME','YOUR_ID','YOUR_PASSWORD');
 
 
