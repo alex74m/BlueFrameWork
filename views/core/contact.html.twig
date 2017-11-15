@@ -1,0 +1,23 @@
+{% extends 'layout.html.twig' %}
+{% set active = 'contact' %}
+
+{% block title %}Contact Us{% endblock %}
+
+{% block body %}
+	Contact Us Friends!
+	<hr>
+	{% if flashMessage %}
+		<span class="alert alert-success">{{flashMessage}}</span>
+	{% endif %}
+	<div class="form-horizontal col-md-6">
+		<form method="post" action="?page=contact">
+		{% autoescape false %}
+			{% for key, input in form.inputList %}
+       			{{ input }}
+    		{% endfor %}
+		{% endautoescape %}
+		<button type="submit" class="btn btn-success">Envoyer</button>
+		</form>	
+	</div>
+
+{% endblock %}

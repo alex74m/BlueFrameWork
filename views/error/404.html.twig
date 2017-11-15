@@ -1,0 +1,10 @@
+{% extends 'layout.html.twig' %}
+
+{% block title %}Error 404{% endblock %}
+
+{% block body %}
+	ERREUR 404 
+	<br>
+	La page {% if page %}<strong>{{page}}</strong>{% endif %} n'a pas pû être trouvée.
+
+{% endblock %}

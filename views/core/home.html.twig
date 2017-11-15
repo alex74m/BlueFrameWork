@@ -1,0 +1,13 @@
+{% extends 'layout.html.twig' %}
+{% set active = 'home' %}
+{% block title %}HomePage{% endblock %}
+
+{% block body %}
+	HOMEPAGE 
+	<br>
+
+	{% for user in users %}
+		{{user.name}}
+	{% endfor %}
+
+{% endblock %}
